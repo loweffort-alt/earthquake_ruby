@@ -1,0 +1,37 @@
+CREATE TABLE mytable(
+   "featurestype"          VARCHAR,
+   "propertiesmag"         NUMERIC(30,17),
+   "propertiesplace"       VARCHAR,
+   "propertiestime"        BIGINT ,
+   "propertiesupdated"     BIGINT,
+   "propertiestz"          VARCHAR,
+   "propertiesurl"         VARCHAR,
+   "propertiesdetail"      VARCHAR,
+   "propertiesfelt"        INTEGER,
+   "propertiescdi"         NUMERIC(30,1),
+   "propertiesmmi"         NUMERIC(30,3),
+   "propertiesalert"       VARCHAR,
+   "propertiesstatus"      VARCHAR,
+   "propertiestsunami"     INTEGER,
+   "propertiessig"         INTEGER,
+   "propertiesnet"         VARCHAR,
+   "propertiescode"        VARCHAR,
+   "propertiesids"         VARCHAR,
+   "propertiessources"     VARCHAR,
+   "propertiestypes"       VARCHAR,
+   "propertiesnst"         INTEGER,
+   "propertiesdmin"        NUMERIC(30,12),
+   "propertiesrms"         NUMERIC(30,10),
+   "propertiesgap"         NUMERIC(30,2),
+   "propertiesmagType"     VARCHAR,
+   "propertiestype"        VARCHAR,
+   "propertiestitle"       VARCHAR,
+   "geometrytype"          VARCHAR,
+   "geometrycoordinates0"  NUMERIC,
+   "geometrycoordinates1"  NUMERIC,
+   "geometrycoordinates2"  NUMERIC,
+   "featureid"             VARCHAR
+);
+
+INSERT INTO mytable("featurestype", "propertiesmag", "propertiesplace", "propertiestime", "propertiesupdated", "propertiestz", "propertiesurl", "propertiesdetail", "propertiesfelt", "propertiescdi", "propertiesmmi", "propertiesalert", "propertiesstatus", "propertiestsunami", "propertiessig", "propertiesnet", "propertiescode", "propertiesids", "propertiessources", "propertiestypes", "propertiesnst", "propertiesdmin", "propertiesrms", "propertiesgap", "propertiesmagType", "propertiestype", "propertiestitle", "geometrytype", "geometrycoordinates0", "geometrycoordinates1", "geometrycoordinates2", "featureid") 
+VALUES ('Feature',1.26,'8 km WNW of Cobb, CA',1712738931360,1712739024226,NULL,'https://earthquake.usgs.gov/earthquakes/eventpage/nc74032186','https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc74032186.geojson',NULL,NULL,NULL,NULL,'automatic',0,24,'nc','74032186',',nc74032186,',',nc,',',nearby-cities,origin,phase-data,',18,0.009549,0.08,74,'md','earthquake','M 1.3 - 8 km WNW of Cobb, CA','Point',-122.80867,38.8516655,2.68,'nc74032186');
